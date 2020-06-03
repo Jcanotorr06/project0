@@ -1,0 +1,9 @@
+.container{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+.container div{
+  width: auto;
+border: 1px solid black;
+}
