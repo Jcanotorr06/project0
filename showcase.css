@@ -1,11 +1,16 @@
+.container{
+  padding: 5px;
+}
 .container >ul {
   display: flex;
   flex-wrap: wrap;
+
 }
 
 .container li {
   height: 40vh;
   flex-grow: 1;
+  margin: 5px;
 }
 
 .container img {
@@ -20,11 +25,13 @@
 @media (max-aspect-ratio: 1/1) {
   .container li {
     height: 30vh;
+    margin: 2px;
   }
 }
 @media (max-height: 480px) {
   .container li {
     height: 80vh;
+    margin: 5px;
   }
 }
 @media (max-aspect-ratio: 1/1) and (max-width: 480px) {
@@ -35,6 +42,7 @@
   .container li {
     height: auto;
     width: 100%;
+    margin:2px;
   }
 
   .container img {
