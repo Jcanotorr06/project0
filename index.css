@@ -3,11 +3,12 @@
   font-weight: bold;
   border-bottom: 2px solid black
 }
-#Index{
+.list-group{
+  display: inline-block;
   text-align: left;
   font-weight: bold;
 }
-#Index >h3{
+.list-group h3{
   border: 1px solid black;
   margin: 2px;
 }

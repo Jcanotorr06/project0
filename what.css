@@ -1,0 +1,9 @@
+.container, .col{
+  border: 1px solid black;
+  text-align: center;
+}
+.Headder{
+  font-size: 18px;
+  font-weight: bold;
+  background-color: gray;
+}
